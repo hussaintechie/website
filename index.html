@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Call Boy Job Chennai</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --green: #22c55e;
+      --green-dark: #16a34a;
+      --green-light: #dcfce7;
+      --bg: #f8faf9;
+      --dark: #0f1a14;
+      --gray: #4b5563;
+      --light-gray: #e5e7eb;
+      --white: #ffffff;
+      --card-bg: #ffffff;
+      --radius: 16px;
+      --shadow: 0 4px 24px rgba(0,0,0,0.08);
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Manrope', sans-serif;
+      background: var(--bg);
+      color: var(--dark);
+      line-height: 1.65;
+      font-size: 16px;
+    }
+
+    /* ── NAV ── */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(255,255,255,0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--light-gray);
+      padding: 0 24px;
+    }
+    .nav-inner {
+      max-width: 1100px;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 64px;
+    }
+    .logo {
+      font-family: 'Sora', sans-serif;
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--dark);
+      text-decoration: none;
+    }
+    .logo span { color: var(--green); }
+    .nav-cta {
+      background: var(--green);
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 22px;
+      border-radius: 50px;
+      font-size: 0.88rem;
+      font-weight: 600;
+      transition: background 0.2s, transform 0.2s;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      white-space: nowrap;
+    }
+    .nav-cta:hover { background: var(--green-dark); transform: translateY(-1px); }
+
+    /* ── HERO ── */
+    .hero {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 80px 24px 60px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: center;
+    }
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--green-light);
+      color: var(--green-dark);
+      font-size: 0.8rem;
+      font-weight: 700;
+      padding: 6px 14px;
+      border-radius: 50px;
+      margin-bottom: 20px;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+    }
+    .hero h1 {
+      font-family: 'Sora', sans-serif;
+      font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 800;
+      line-height: 1.18;
+      color: var(--dark);
+      margin-bottom: 20px;
+    }
+    .hero h1 span { color: var(--green); }
+    .hero p {
+      color: var(--gray);
+      font-size: 1rem;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+    }
+    .hero p .check { color: var(--green); font-size: 1.1rem; flex-shrink: 0; margin-top: 2px; }
+    .hero-actions { display: flex; gap: 12px; margin-top: 30px; flex-wrap: wrap; }
+    .btn-primary {
+      background: var(--green);
+      color: #fff;
+      text-decoration: none;
+      padding: 14px 28px;
+      border-radius: 50px;
+      font-weight: 700;
+      font-size: 0.95rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
+      box-shadow: 0 4px 16px rgba(34,197,94,0.35);
+    }
+    .btn-primary:hover { background: var(--green-dark); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(34,197,94,0.4); }
+    .btn-secondary {
+      background: var(--white);
+      color: var(--dark);
+      text-decoration: none;
+      padding: 14px 28px;
+      border-radius: 50px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      border: 1.5px solid var(--light-gray);
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      transition: border-color 0.2s, transform 0.2s;
+    }
+    .btn-secondary:hover { border-color: var(--green); transform: translateY(-2px); }
+
+    .hero-image {
+      border-radius: 24px;
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      background: linear-gradient(135deg, #dcfce7 0%, #bbf7d0 100%);
+      min-height: 380px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .hero-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 24px;
+      display: block;
+    }
+    .hero-placeholder {
+      text-align: center;
+      padding: 40px;
+    }
+    .hero-placeholder .icon { font-size: 5rem; margin-bottom: 16px; }
+    .hero-placeholder p { color: var(--green-dark); font-weight: 600; font-size: 1.1rem; }
+
+    /* ── STATS ── */
+    .stats {
+      background: var(--dark);
+      padding: 48px 24px;
+    }
+    .stats-inner {
+      max-width: 1100px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+      text-align: center;
+    }
+    .stat-item {}
+    .stat-num {
+      font-family: 'Sora', sans-serif;
+      font-size: clamp(1.8rem, 3vw, 2.4rem);
+      font-weight: 800;
+      color: var(--green);
+      display: block;
+    }
+    .stat-label { color: #9ca3af; font-size: 0.85rem; font-weight: 500; margin-top: 4px; }
+
+    /* ── SECTION COMMON ── */
+    section { padding: 80px 24px; }
+    .section-inner { max-width: 1100px; margin: auto; }
+    .section-tag {
+      display: inline-block;
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--green-dark);
+      background: var(--green-light);
+      padding: 5px 14px;
+      border-radius: 50px;
+      margin-bottom: 14px;
+    }
+    .section-title {
+      font-family: 'Sora', sans-serif;
+      font-size: clamp(1.6rem, 3vw, 2.2rem);
+      font-weight: 800;
+      color: var(--dark);
+      margin-bottom: 16px;
+    }
+    .section-desc {
+      color: var(--gray);
+      max-width: 560px;
+      font-size: 1rem;
+    }
+    .section-head { margin-bottom: 48px; }
+
+    /* ── HOW IT WORKS ── */
+    .how { background: var(--white); }
+    .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+    .step-card {
+      background: var(--bg);
+      border-radius: var(--radius);
+      padding: 32px 28px;
+      position: relative;
+      border: 1.5px solid transparent;
+      transition: border-color 0.2s, transform 0.2s;
+    }
+    .step-card:hover { border-color: var(--green); transform: translateY(-4px); }
+    .step-num {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: var(--green);
+      color: #fff;
+      font-family: 'Sora', sans-serif;
+      font-size: 1.1rem;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    .step-card h3 { font-family: 'Sora', sans-serif; font-size: 1.05rem; font-weight: 700; margin-bottom: 10px; color: var(--dark); }
+    .step-card p { color: var(--gray); font-size: 0.92rem; }
+
+    /* ── REQUIREMENTS ── */
+    .req { background: var(--bg); }
+    .req-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .req-item {
+      background: var(--white);
+      border-radius: 12px;
+      padding: 20px 24px;
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      border: 1.5px solid var(--light-gray);
+      transition: border-color 0.2s;
+    }
+    .req-item:hover { border-color: var(--green); }
+    .req-icon { font-size: 1.4rem; flex-shrink: 0; }
+    .req-text { font-size: 0.93rem; color: var(--gray); font-weight: 500; }
+
+    /* ── PRICING ── */
+    .pricing { background: var(--white); }
+    .pricing-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+    .plan {
+      border: 2px solid var(--light-gray);
+      border-radius: var(--radius);
+      padding: 36px 28px;
+      text-align: center;
+      position: relative;
+      transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+    }
+    .plan:hover { border-color: var(--green); transform: translateY(-4px); box-shadow: 0 12px 40px rgba(34,197,94,0.12); }
+    .plan.featured {
+      border-color: var(--green);
+      background: linear-gradient(160deg, #f0fdf4 0%, #ffffff 100%);
+    }
+    .plan-badge {
+      position: absolute;
+      top: -14px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--green);
+      color: #fff;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 5px 14px;
+      border-radius: 50px;
+      white-space: nowrap;
+    }
+    .plan-name {
+      font-family: 'Sora', sans-serif;
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--gray);
+      margin-bottom: 16px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .plan-price {
+      font-family: 'Sora', sans-serif;
+      font-size: 2.6rem;
+      font-weight: 800;
+      color: var(--dark);
+      line-height: 1;
+    }
+    .plan-price span { font-size: 1rem; color: var(--gray); font-weight: 500; }
+    .plan-sub { color: var(--gray); font-size: 0.82rem; margin-top: 4px; margin-bottom: 28px; }
+    .plan-features { list-style: none; text-align: left; margin-bottom: 32px; }
+    .plan-features li {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 0.9rem;
+      color: var(--gray);
+      padding: 8px 0;
+      border-bottom: 1px solid var(--light-gray);
+    }
+    .plan-features li:last-child { border-bottom: none; }
+    .plan-features li::before {
+      content: "✓";
+      color: var(--green);
+      font-weight: 700;
+      font-size: 1rem;
+      flex-shrink: 0;
+    }
+    .plan-btn {
+      display: block;
+      width: 100%;
+      background: var(--green);
+      color: #fff;
+      text-decoration: none;
+      padding: 14px;
+      border-radius: 50px;
+      font-weight: 700;
+      font-size: 0.92rem;
+      transition: background 0.2s, transform 0.2s;
+      text-align: center;
+    }
+    .plan-btn:hover { background: var(--green-dark); transform: translateY(-1px); }
+    .plan-btn.outline {
+      background: transparent;
+      color: var(--green);
+      border: 2px solid var(--green);
+    }
+    .plan-btn.outline:hover { background: var(--green); color: #fff; }
+
+    /* ── RULES ── */
+    .rules { background: var(--dark); padding: 80px 24px; }
+    .rules-inner { max-width: 1100px; margin: auto; }
+    .rules .section-title { color: #fff; }
+    .rules .section-tag { background: rgba(34,197,94,0.2); color: var(--green); }
+    .rules-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-top: 40px; }
+    .rule-item {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 12px;
+      padding: 18px 22px;
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      font-size: 0.9rem;
+      color: #d1d5db;
+    }
+    .rule-item .ri { flex-shrink: 0; font-size: 1.2rem; }
+
+    /* ── LOCATIONS ── */
+    .locations { background: var(--bg); }
+    .loc-chips { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+    .loc-chip {
+      background: var(--white);
+      border: 1.5px solid var(--light-gray);
+      border-radius: 50px;
+      padding: 10px 20px;
+      font-size: 0.88rem;
+      font-weight: 600;
+      color: var(--dark);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      transition: border-color 0.2s, background 0.2s;
+    }
+    .loc-chip:hover { border-color: var(--green); background: var(--green-light); }
+
+    /* ── CTA BANNER ── */
+    .cta-banner {
+      background: linear-gradient(135deg, #16a34a 0%, #22c55e 60%, #4ade80 100%);
+      padding: 80px 24px;
+      text-align: center;
+    }
+    .cta-banner h2 {
+      font-family: 'Sora', sans-serif;
+      font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 16px;
+    }
+    .cta-banner p { color: rgba(255,255,255,0.85); font-size: 1rem; margin-bottom: 36px; max-width: 500px; margin-left: auto; margin-right: auto; }
+    .btn-white {
+      background: #fff;
+      color: var(--green-dark);
+      text-decoration: none;
+      padding: 16px 36px;
+      border-radius: 50px;
+      font-weight: 800;
+      font-size: 1rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      transition: transform 0.2s, box-shadow 0.2s;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    }
+    .btn-white:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(0,0,0,0.2); }
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--dark);
+      color: #9ca3af;
+      text-align: center;
+      padding: 28px 24px;
+      font-size: 0.85rem;
+    }
+    footer a { color: var(--green); text-decoration: none; }
+
+    /* ── WHATSAPP FLOAT ── */
+    .wa-float {
+      position: fixed;
+      bottom: 28px;
+      right: 28px;
+      z-index: 999;
+      background: #25d366;
+      color: #fff;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.7rem;
+      box-shadow: 0 4px 20px rgba(37,211,102,0.5);
+      text-decoration: none;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .wa-float:hover { transform: scale(1.1); box-shadow: 0 8px 30px rgba(37,211,102,0.6); }
+    .wa-pulse {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      background: #25d366;
+      opacity: 0.4;
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); opacity: 0.4; }
+      70% { transform: scale(1.5); opacity: 0; }
+      100% { transform: scale(1.5); opacity: 0; }
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 900px) {
+      .hero { grid-template-columns: 1fr; gap: 40px; padding: 60px 24px 48px; }
+      .hero-image { min-height: 280px; }
+      .stats-inner { grid-template-columns: repeat(2, 1fr); }
+      .steps { grid-template-columns: 1fr; }
+      .pricing-grid { grid-template-columns: 1fr; max-width: 420px; margin: auto; }
+      .rules-grid { grid-template-columns: 1fr; }
+      .req-grid { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 600px) {
+      .stats-inner { grid-template-columns: repeat(2, 1fr); gap: 16px; }
+      section { padding: 60px 20px; }
+      .hero-actions { flex-direction: column; }
+      .btn-primary, .btn-secondary { text-align: center; justify-content: center; }
+      .wa-float { width: 54px; height: 54px; font-size: 1.5rem; bottom: 20px; right: 20px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <a class="logo" href="#">Call Boy Job <span>Chennai</span></a>
+    <a class="nav-cta" href="https://wa.me/919361140598" target="_blank">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      WhatsApp Now
+    </a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section style="padding: 0;">
+  <div class="hero">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="currentColor"><circle cx="6" cy="6" r="6"/></svg>
+        Now Hiring · Chennai
+      </div>
+      <h1>Call Boy Job<br><span>Chennai</span> Opportunities</h1>
+      <p><span class="check">✓</span> Earn ₹20,000 – ₹50,000 per month</p>
+      <p><span class="check">✓</span> Part-time & full-time positions available</p>
+      <p><span class="check">✓</span> Guaranteed secure payments</p>
+      <p><span class="check">✓</span> Jobs within 5–10 km of your location</p>
+      <p><span class="check">✓</span> Safe, secured and quick onboarding</p>
+      <div class="hero-actions">
+        <a class="btn-primary" href="https://wa.me/919361140598" target="_blank">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Apply via WhatsApp
+        </a>
+        <a class="btn-secondary" href="#" target="_blank">
+          📱 Telegram
+        </a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="image.png" alt="Call Boy Job Chennai" />
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<div class="stats">
+  <div class="stats-inner">
+    <div class="stat-item">
+      <span class="stat-num">₹50K</span>
+      <div class="stat-label">Max Monthly Income</div>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num">8+</span>
+      <div class="stat-label">Cities Available</div>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num">24hr</span>
+      <div class="stat-label">Profile Verification</div>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num">100%</span>
+      <div class="stat-label">Secure Payments</div>
+    </div>
+  </div>
+</div>
+
+<!-- HOW IT WORKS -->
+<section class="how">
+  <div class="section-inner">
+    <div class="section-head">
+      <div class="section-tag">How It Works</div>
+      <h2 class="section-title">Get Started in 3 Simple Steps</h2>
+      <p class="section-desc">Quick and easy registration process. Start earning within 24 hours of joining.</p>
+    </div>
+    <div class="steps">
+      <div class="step-card">
+        <div class="step-num">1</div>
+        <h3>Contact Us</h3>
+        <p>Reach out through WhatsApp or Telegram with your basic details. Our team is available 24/7 to assist you.</p>
+      </div>
+      <div class="step-card">
+        <div class="step-num">2</div>
+        <h3>Profile Verification</h3>
+        <p>We will call you within 24 hours to verify your profile and discuss available opportunities in your area.</p>
+      </div>
+      <div class="step-card">
+        <div class="step-num">3</div>
+        <h3>Start Working</h3>
+        <p>Once verified, your profile gets activated and we send you client details. Start earning immediately!</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- REQUIREMENTS -->
+<section class="req">
+  <div class="section-inner">
+    <div class="section-head">
+      <div class="section-tag">Requirements</div>
+      <h2 class="section-title">What We Look For</h2>
+      <p class="section-desc">Meet these basic criteria to join our professional team.</p>
+    </div>
+    <div class="req-grid">
+      <div class="req-item">
+        <div class="req-icon">🗣️</div>
+        <div class="req-text">Must know Hindi or English communication</div>
+      </div>
+      <div class="req-item">
+        <div class="req-icon">🤝</div>
+        <div class="req-text">Must be polite, decent and professional</div>
+      </div>
+      <div class="req-item">
+        <div class="req-icon">👔</div>
+        <div class="req-text">Must dress appropriately for each occasion</div>
+      </div>
+      <div class="req-item">
+        <div class="req-icon">🧼</div>
+        <div class="req-text">Must be clean, hygienic and well-groomed</div>
+      </div>
+      <div class="req-item">
+        <div class="req-icon">🚫</div>
+        <div class="req-text">Must not be addicted to drugs or alcohol</div>
+      </div>
+      <div class="req-item">
+        <div class="req-icon">📍</div>
+        <div class="req-text">Must be located within serviceable areas</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="pricing">
+  <div class="section-inner">
+    <div class="section-head">
+      <div class="section-tag">Pricing Plans</div>
+      <h2 class="section-title">Choose Your Plan</h2>
+      <p class="section-desc">Flexible plans to match your availability and income goals.</p>
+    </div>
+    <div class="pricing-grid">
+      <div class="plan">
+        <div class="plan-name">Basic</div>
+        <div class="plan-price">₹3,000 <span>/month</span></div>
+        <div class="plan-sub">Starter plan for beginners</div>
+        <ul class="plan-features">
+          <li>3 Meetings per month</li>
+          <li>Normal client profile</li>
+          <li>Payment: ₹10,000 – ₹15,000</li>
+          <li>No cab provided</li>
+        </ul>
+        <a href="https://wa.me/919361140598" target="_blank" class="plan-btn outline">Get Started</a>
+      </div>
+
+      <div class="plan featured">
+        <div class="plan-badge">Most Popular</div>
+        <div class="plan-name">Advanced</div>
+        <div class="plan-price">₹6,000 <span>/month</span></div>
+        <div class="plan-sub">Great for regular income</div>
+        <ul class="plan-features">
+          <li>5 Meetings per month</li>
+          <li>VIP client profile</li>
+          <li>Payment: ₹12,000 – ₹20,000</li>
+          <li>One-way cab provided</li>
+        </ul>
+        <a href="https://wa.me/919361140598" target="_blank" class="plan-btn">Get Started</a>
+      </div>
+
+      <div class="plan">
+        <div class="plan-name">Premium</div>
+        <div class="plan-price">₹10,000 <span>/month</span></div>
+        <div class="plan-sub">Maximum earnings potential</div>
+        <ul class="plan-features">
+          <li>8 Meetings per month</li>
+          <li>Premium client profile</li>
+          <li>Payment: ₹15,000 – ₹30,000</li>
+          <li>Two-way cab provided</li>
+        </ul>
+        <a href="https://wa.me/919361140598" target="_blank" class="plan-btn outline">Get Started</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RULES -->
+<section class="rules">
+  <div class="rules-inner">
+    <div class="section-tag">Professional Rules</div>
+    <h2 class="section-title">Our Code of Conduct</h2>
+    <div class="rules-grid">
+      <div class="rule-item"><span class="ri">✅</span> Satisfy clients with professionalism at all times</div>
+      <div class="rule-item"><span class="ri">🌐</span> Knowledge of English or Hindi is required</div>
+      <div class="rule-item"><span class="ri">🚫</span> No slang, bad manners, or disrespectful behaviour</div>
+      <div class="rule-item"><span class="ri">🧤</span> Protective clothing is always required</div>
+      <div class="rule-item"><span class="ri">🧼</span> Maintain strict hygiene and cleanliness standards</div>
+      <div class="rule-item"><span class="ri">💼</span> Professional contacts only — no personal relationships</div>
+      <div class="rule-item"><span class="ri">💰</span> No unpaid meetings are permitted</div>
+      <div class="rule-item"><span class="ri">🤝</span> Never mistreat or abuse any client or agent</div>
+    </div>
+  </div>
+</section>
+
+<!-- LOCATIONS -->
+<section class="locations">
+  <div class="section-inner">
+    <div class="section-tag">Available Cities</div>
+    <h2 class="section-title">We Operate Across Tamil Nadu & Beyond</h2>
+    <p class="section-desc">Jobs available within 5–10 km of your location in these cities.</p>
+    <div class="loc-chips">
+      <div class="loc-chip">📍 Chennai</div>
+      <div class="loc-chip">📍 Coimbatore</div>
+      <div class="loc-chip">📍 Trichy</div>
+      <div class="loc-chip">📍 Salem</div>
+      <div class="loc-chip">📍 Madurai</div>
+      <div class="loc-chip">📍 Bangalore</div>
+      <div class="loc-chip">📍 Theni</div>
+      <div class="loc-chip">📍 Vellore</div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BANNER -->
+<div class="cta-banner">
+  <h2>Ready to Start Earning?</h2>
+  <p>Contact us today and take the first step towards a rewarding experience. We'll get back to you within 24 hours.</p>
+  <a class="btn-white" href="https://wa.me/919361140598" target="_blank">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    WhatsApp Us Now
+  </a>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Call Boy Job Chennai · All Rights Reserved</p>
+</footer>
+
+<!-- FLOATING WHATSAPP -->
+<a class="wa-float" href="https://wa.me/919361140598" target="_blank" aria-label="WhatsApp">
+  <div class="wa-pulse"></div>
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+</body>
+</html>
