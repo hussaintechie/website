@@ -172,7 +172,7 @@ export default function ContactPage() {
               </div>
 
               <div>
-                <label className="block text-sm font-bold text-slate-700 mb-2">Required Fleet Segment</label>
+                <label className="block text-sm font-bold text-slate-700 mb-2">Required for</label>
                 <div className="relative">
                   {/* ADDED name="segment" */}
                   <select name="segment" className="w-full px-4 py-3.5 rounded-lg border border-slate-200 bg-slate-50 focus:bg-white focus:border-blue-600 focus:ring-2 focus:ring-blue-600/20 outline-none transition-all font-bold text-slate-700 appearance-none cursor-pointer">
