@@ -129,7 +129,7 @@ export default function ContactPage() {
   </p>
 
   <a 
-    href="https://t.me/@Rajhussain12" 
+    href="https://t.me/Rajhussain12" 
     target="_blank" 
     rel="noopener noreferrer"
     className="inline-flex items-center text-blue-500 font-semibold hover:underline"

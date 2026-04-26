@@ -165,6 +165,12 @@ export default function callgirl() {
   {/* Instagram */}
   <div className="w-14 h-14 bg-pink-50 rounded-full flex items-center justify-center text-pink-600 shadow-sm">
     <svg className="w-7 h-7" fill="currentColor" viewBox="0 0 24 24">
+                     <a 
+    href="https://t.me/@Rajhussain12" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="inline-flex items-center text-blue-500 font-semibold hover:underline"
+  ></a>
       <path d="M7.75 2C4.678 2 2 4.678 2 7.75v8.5C2 19.322 4.678 22 7.75 22h8.5C19.322 22 22 19.322 22 16.25v-8.5C22 4.678 19.322 2 16.25 2h-8.5zM12 7a5 5 0 110 10 5 5 0 010-10zm6.5-.75a1.25 1.25 0 11-2.5 0 1.25 1.25 0 012.5 0zM12 9a3 3 0 100 6 3 3 0 000-6z"/>
     </svg>
   </div>
