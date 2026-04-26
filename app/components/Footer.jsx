@@ -57,16 +57,16 @@ const Footer = () => {
     Tamil Nadu - 600071.
   </span> */}
 </li>
-              <li className="flex items-start">
-                <span className="mr-2 text-red-500 font-bold">t:</span> 
-                <a 
-    href="https://t.me/@Rajhussain12" 
-    target="_blank" 
-    rel="noopener noreferrer"
-    className="inline-flex items-center text-blue-500 font-semibold hover:underline"
-  >
-    @telegram
-  </a>
+                    <li className="flex items-start">
+                      <span className="mr-2 text-red-500 font-bold">t:</span> 
+                      <a 
+          href="https://t.me/Rajhussain12" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="inline-flex items-center text-blue-500 font-semibold hover:underline"
+        >
+          @telegram
+        </a>
               </li>
               <li className="flex items-start">
                 <span className="mr-2 text-red-500 font-bold">P:</span> 

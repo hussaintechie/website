@@ -143,10 +143,20 @@ export default function LCVSegmentPage() {
   </Link>
 
   {/* Telegram */}
-  <div className="w-14 h-14 bg-blue-50 rounded-full flex items-center justify-center text-blue-500 shadow-sm">
+   <div className="w-14 h-14 bg-blue-50 rounded-full flex items-center justify-center text-blue-500 shadow-sm">
+   <a 
+  href="https://t.me/Rajhussain12" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="inline-flex"
+>
+  <div className="w-14 h-14 bg-blue-50 rounded-full flex items-center justify-center text-blue-500 shadow-sm hover:bg-blue-100 transition">
     <svg className="w-7 h-7" fill="currentColor" viewBox="0 0 24 24">
       <path d="M9.993 15.672l-.396 3.936c.567 0 .813-.243 1.11-.534l2.664-2.55 5.52 4.032c1.014.558 1.734.264 2.016-.936l3.66-17.136h.001c.324-1.5-.54-2.088-1.53-1.716L1.68 9.504c-1.47.57-1.452 1.392-.252 1.764l5.88 1.836 13.644-8.604c.642-.426 1.224-.192.744.234"/>
     </svg>
+  </div>
+</a>
+    
   </div>
 
   {/* Instagram */}
