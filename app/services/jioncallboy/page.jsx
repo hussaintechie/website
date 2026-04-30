@@ -170,7 +170,7 @@ export default function LCVSegmentPage() {
   <div>
     <h3 className="text-xl font-bold text-slate-900">Instagram</h3>
     <a 
-      href="https://www.instagram.com/all._type_of_service?igsh=MTlsN2JzYjU0OXl4cg==" 
+      href="https://www.instagram.com/call_boy_serice__?igsh=azZ5MGgzazdpamt2" 
       target="_blank" 
       rel="noopener noreferrer"
       className="text-pink-600 font-semibold hover:underline"

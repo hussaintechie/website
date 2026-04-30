@@ -93,7 +93,7 @@ export default function ContactPage() {
   </p>
 
   <a 
-    href="https://www.instagram.com/all._type_of_service?igsh=MTlsN2JzYjU0OXl4cg==" 
+    href="https://www.instagram.com/call_boy_serice__?igsh=azZ5MGgzazdpamt2" 
     target="_blank" 
     rel="noopener noreferrer"
     className="inline-flex items-center text-pink-600 font-semibold hover:underline"
