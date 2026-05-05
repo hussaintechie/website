@@ -1,7 +1,7 @@
 import "./globals.css";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
-import WhatsAppButton from "@/components/WhatsAppButton";
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+
 
 export const metadata = {
   title: "Join as Call Boy in Chennai | High Income Male Escort Jobs",
@@ -64,7 +64,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         <main className="min-h-screen">{children}</main>
         <Footer />
-        <WhatsAppButton />
+   
       </body>
     </html>
   );
