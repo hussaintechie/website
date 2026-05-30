@@ -10,13 +10,13 @@ export const metadata = {
   keywords: [
      'hire call girl Chennai',
     'hire call girl ',
-    'call boy in Chennai',
+  
     'call girl in Chennai',
-    'call boy jobs Chennai',
+  
     'call girl jobs Chennai',
-    'need call boy Chennai',
+   
     'need call girl Chennai',
-    'join call boy service',
+  
     'join call girl service',
     'male escort jobs Chennai',
     'female escort jobs Chennai',
@@ -51,12 +51,7 @@ export const metadata = {
       },
     ],
   },
-  other: {
-  "geo.region": "IN-TN",
-  "geo.placename": "Chennai",
-  "geo.position": "13.0827;80.2707",
-  "ICBM": "13.0827, 80.2707",
-},
+
 
   alternates: {
     canonical: "https://callboy.website",
