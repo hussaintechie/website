@@ -11,7 +11,11 @@ const lcvVehicles = [
     id: 1,
     name: "Join as Call Girl",
 
-    description: "Join our professional companionship service and start earning with flexible opportunities..",
+description: `
+Your dream girl could be here! ❤️
+Join our agency, meet amazing girls, and enjoy unforgettable moments. 🔥
+
+its was an Real picture of our girls, and u will atten service by that girl`,
     specs: { length: "14 ft", width: "6.5 ft", height: "6.0 ft", payload: "3 Tons" },
     image: "/serviceimage/callgirl.jpg", 
   },
@@ -160,14 +164,14 @@ export default function LCVSegmentPage() {
   </div>
 
   {/* Instagram */}
-  <div className="w-14 h-14 bg-pink-50 rounded-full flex items-center justify-center text-pink-600 shadow-sm">
+  {/* <div className="w-14 h-14 bg-pink-50 rounded-full flex items-center justify-center text-pink-600 shadow-sm">
     <svg className="w-7 h-7" fill="currentColor" viewBox="0 0 24 24">
       <path d="M7.75 2C4.678 2 2 4.678 2 7.75v8.5C2 19.322 4.678 22 7.75 22h8.5C19.322 22 22 19.322 22 16.25v-8.5C22 4.678 19.322 2 16.25 2h-8.5zM12 7a5 5 0 110 10 5 5 0 010-10zm6.5-.75a1.25 1.25 0 11-2.5 0 1.25 1.25 0 012.5 0zM12 9a3 3 0 100 6 3 3 0 000-6z"/>
     </svg>
-  </div>
+  </div> */}
 
   {/* Instagram Text */}
-  <div>
+  {/* <div>
     <h3 className="text-xl font-bold text-slate-900">Instagram</h3>
     <a 
       href="https://www.instagram.com/call_boy_serice__?igsh=azZ5MGgzazdpamt2" 
@@ -177,7 +181,32 @@ export default function LCVSegmentPage() {
     >
       all._types_of_services
     </a>
-  </div>
+  </div> */
+  <div>
+  <h3 className="text-xl font-bold text-slate-900">Contact</h3>
+
+  {/* Phone */}
+  <a
+    href="tel:+919876543210"
+    className="block text-blue-600 font-semibold hover:underline"
+  >
+    📞 +91 98765 43210
+  </a>
+
+  {/* WhatsApp */}
+  <a
+    href="https://wa.me/919876543210"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="block text-green-600 font-semibold hover:underline"
+  >
+    💬 WhatsApp
+  </a>
+</div>
+
+
+  
+  }
 
 </div>
 

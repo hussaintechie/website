@@ -68,17 +68,32 @@ const Footer = () => {
           @telegram
         </a>
               </li>
-              <li className="flex items-start">
-                <span className="mr-2 text-red-500 font-bold">P:</span> 
-                 <a 
-    href="https://www.instagram.com/call_boy_serice__?igsh=azZ5MGgzazdpamt2" 
-    target="_blank" 
-    rel="noopener noreferrer"
-    className="inline-flex items-center text-pink-600 font-semibold hover:underline"
-  >
-    all._types_of_services
-  </a>
-              </li>
+           
+      
+<li className="flex items-start">
+  <span className="mr-2 text-red-500 font-bold">P:</span>
+
+  <div className="flex flex-col gap-1">
+    {/* Phone */}
+    <a
+      href="tel:+917564880310"
+      className="inline-flex items-center text-blue-600 font-semibold hover:underline"
+    >
+      📞 Call Us
+    </a>
+
+    {/* WhatsApp */}
+    <a
+      href="https://wa.me/917564880310"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-flex items-center text-green-600 font-semibold hover:underline"
+    >
+      💬 WhatsApp
+    </a>
+  </div>
+</li>
+
               {/* <li className="flex items-start">
                 <span className="mr-2 text-red-500 font-bold">P:</span> 
                 <a href="tel:+919638715223" className="hover:text-white transition-colors">+91 96387 15223</a>
