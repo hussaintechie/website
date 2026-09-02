@@ -73,25 +73,24 @@ const Footer = () => {
 <li className="flex items-start">
   <span className="mr-2 text-red-500 font-bold">P:</span>
 
-  <div className="flex flex-col gap-1">
     {/* Phone */}
-    <a
+    {/* <a
       href="tel:+917564880310"
       className="inline-flex items-center text-blue-600 font-semibold hover:underline"
     >
       📞 Call Us
-    </a>
+    </a> */}
 
     {/* WhatsApp */}
-    <a
+    {/* <a
       href="https://wa.me/917564880310"
       target="_blank"
       rel="noopener noreferrer"
       className="inline-flex items-center text-green-600 font-semibold hover:underline"
     >
       💬 WhatsApp
-    </a>
-  </div>
+    </a> */}
+  
 </li>
 
               {/* <li className="flex items-start">

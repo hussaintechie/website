@@ -182,27 +182,27 @@ export default function LCVSegmentPage() {
       all._types_of_services
     </a>
   </div> */
-  <div>
-  <h3 className="text-xl font-bold text-slate-900">Contact</h3>
+//   <div>
+//   <h3 className="text-xl font-bold text-slate-900">Contact</h3>
 
-  {/* Phone */}
-  <a
-    href="tel:+919876543210"
-    className="block text-blue-600 font-semibold hover:underline"
-  >
-    📞 +91 98765 43210
-  </a>
+//   {/* Phone */}
+//   <a
+//     href="tel:+919876543210"
+//     className="block text-blue-600 font-semibold hover:underline"
+//   >
+//     📞 +91 98765 43210
+//   </a>
 
-  {/* WhatsApp */}
-  <a
-    href="https://wa.me/919876543210"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="block text-green-600 font-semibold hover:underline"
-  >
-    💬 WhatsApp
-  </a>
-</div>
+//   {/* WhatsApp */}
+//   <a
+//     href="https://wa.me/919876543210"
+//     target="_blank"
+//     rel="noopener noreferrer"
+//     className="block text-green-600 font-semibold hover:underline"
+//   >
+//     💬 WhatsApp
+//   </a>
+// </div>
 
 
   
