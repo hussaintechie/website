@@ -43,7 +43,7 @@ const Navbar = () => {
 
       {/* Logo */}
       <div className="flex-shrink-0 z-50">
-       <h1 className="text-2xl font-bold text-red-800">call boy and girl service </h1>
+       <h1 className="text-2xl font-bold text-red-800">call  girl service </h1>
       </div>
 
       {/* ----------------- DESKTOP MENU ----------------- */}
